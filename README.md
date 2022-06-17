@@ -1,24 +1,15 @@
-# README
+# Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+API's don't have a UI, no views
 
-Things you may want to cover:
+rails g resource - creates models, controllers, routes
 
-* Ruby version
+rails routes - informal command to see all routes
 
-* System dependencies
+### RESTful Routes
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- index
+- show
+- create
+- update
+- destroy
